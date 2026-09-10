@@ -1,0 +1,54 @@
+
+============================================================
+            69SHUBA.COM NOVEL CRAWLER — RELEASE NOTES
+                    © Credit: Ali Santoso
+============================================================
+
+v7.9  — 2026-09-09
+  ✅ Separator line (30× =) moved to START of each chapter
+  ✅ ONLY 2 title lines kept: Official Title + Website Title
+  ✅ DUPLICATE title line from body content automatically removed
+  ✅ Format: SEPARATOR → Title → Body → Story text
+  ✅ Body text UNTOUCHED — can compare title differences
+  ✅ Window size & position save/restore
+  ✅ CN = TXT only | EN = empty .txt + .html
+  ✅ Temp buffer save → proper split file naming
+  ✅ Cloudflare detection + auto-retry with wait
+  ✅ Pause/Stop/Progress bar/ETA countdown
+
+v7.8
+  ✅ Save window size & position on close
+  ✅ Default position top-left if no saved settings
+  ✅ Split file naming: CN_c1-100.txt / EN_c1-100.txt
+  ✅ EN files: empty 0-byte TXT + HTML
+  ✅ CSS header at top of CN files
+  ✅ Novel URL saved at top of Synopsis file
+
+v7.5
+  ✅ Resume from ANY chapter (start ch + start URL)
+  ✅ Split every N chapters option
+  ✅ Delay between chapters (min–max range)
+  ✅ Create empty EN files option
+  ✅ Merge-split vs Individual file mode
+  ✅ Temp file save during crawl → no lost progress
+  ✅ Progress bar + ETA countdown timer
+  ✅ Status indicator: Green=Running / Yellow=Paused / Red=Stopped
+
+v7.0
+  ✅ Full GUI interface
+  ✅ Cloudflare bypass via curl_cffi
+  ✅ Auto-detect novel ID from URL
+  ✅ Output folder: 69shuba_[novelID]/
+  ✅ Crawl until END option
+  ✅ Save settings: start ch, URL, count, split, delay
+  ✅ Logs saved to logs.txt with timestamps
+  ✅ Pause / Resume / Stop & Save
+  ✅ Next-chapter auto-detection loop
+
+v6.x — v0.x
+  ✅ Initial script versions
+  ✅ Manual TOC parsing → chapter list
+  ✅ Basic text extraction & saving
+  ✅ Cloudflare 403 errors → retry attempts
+  ✅ Early split file logic
+  ✅ GUI framework built step-by-step

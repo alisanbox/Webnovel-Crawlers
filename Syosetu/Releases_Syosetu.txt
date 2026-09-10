@@ -1,0 +1,45 @@
+============================================================
+         SYOSETU.COM / SYOSETU NOVEL CRAWLER — RELEASES
+                    © Credit: Ali Santoso
+============================================================
+
+v2.8  — 2026-09-09
+  ✅ Split Every value NOW SAVED & RESTORES correctly
+  ✅ File naming fixed: JP_c1-3.txt (no duplicate "c" → c1-c3)
+  ✅ Novel URL saved at TOP of Synopsis file
+  ✅ Age-verification: auto-set cookie → no manual confirmation
+  ✅ Synopsis extraction improved (novel_ex pattern)
+  ✅ Author link corrected → xmypage.syosetu.com full URL
+  ✅ Full TOC pagination: auto-load all ?p= pages beyond page 1
+  ✅ EN empty files: JP_c1-3.txt → EN_c1-3.txt + EN_c1-3.html
+  ✅ CSS header at top of JP files
+  ✅ Window size/position save/restore
+  ✅ All settings persist to JSON (split, delay, mode, etc.)
+
+v2.5
+  ✅ Auto age-confirmation for novel18.syosetu.com
+  ✅ Synopsis.txt generated: Title, Author, Link, Chapters, Status, TOC
+  ✅ Status detection: Completed / Ongoing
+  ✅ TOC multi-page scanning (handles >100 chapters)
+  ✅ Merge & Split / Individual file options
+  ✅ Create empty EN files option
+  ✅ Delay range option (0 allowed)
+  ✅ Progress bar + ETA countdown
+
+v1.5 — v1.8
+  ✅ Auto-detect domain: ncode / novel18
+  ✅ Extract n-code from URL automatically
+  ✅ Fetch Novel Info button → Title, Author, Chapters, Synopsis
+  ✅ Full TOC list display in GUI
+  ✅ Start chapter / End chapter / Split every inputs
+  ✅ JP = Japanese RAW text
+  ✅ Output folder: syosetu_[ncode]/
+  ✅ Pause / Resume / Stop
+  ✅ Logs saved with timestamps
+
+v1.0 — v1.4
+  ✅ Initial Syosetu parser framework
+  ✅ curl_cffi browser impersonation
+  ✅ Chapter content extraction (p-novel__text)
+  ✅ Next-chapter link auto-follow
+  ✅ Basic GUI layout & settings file
