@@ -1,8 +1,16 @@
-# Webnovel-Crawlers
-Python-based GUI crawlers for downloading webnovels — built for **69shuba.com** (Chinese) and **Syosetu / Syosetu Novel18** (Japanese).  ---
+# Webnovel Crawler (GUI)
+Python-based GUI crawlers for downloading webnovels, built for:
+- **69shuba.com** (Chinese novels)
+- **Syosetu / Syosetu Novel18** (Japanese novels)
 
 ---
 
+### 📖 How to Use
+1. **Download & Split** — Choose chapters to download. They can be merged into one file, or split into parts of any size you choose.
+2. **Translate** — Open the output in Chrome and translate to English.
+3. **Save Final Files** — Open the empty English TXT file and generated HTML in Notepad → copy-paste the translated content → save.
+
+✅ Done!
 ## ✨ Features
 
 ### 🇨🇳 69shuba Crawler (`Crawl_69shuba_GUI_v7.9`)
