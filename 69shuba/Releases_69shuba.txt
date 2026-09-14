@@ -3,6 +3,44 @@
             69SHUBA.COM NOVEL CRAWLER — RELEASE NOTES
                     © Credit: Ali Santoso
 ============================================================
+v8.0  —  2026-09-14
+### ✨ Added
+  ✅ Shared synopsis function: Preview button + Auto-Save on Crawl Start
+  ✅ Auto-fetch book page & synopsis from ANY chapter URL
+  ✅ Tags extraction from embedded JavaScript → comma-separated format
+  ✅ Editable scrollable synopsis window → easy copy & translate
+  ✅ Complete synopsis output format saved to file:
+    [Book Page URL]
+    [Novel Title]
+    Author: [Name]
+    [Status: 全本 / 连载]
+    Tags: [comma-separated list]
+    chapter: [Total Chapters]
+    === Synopsis ===
+    [Full Description]
+  ✅ Synopsis saved → synopsis_69shuba_[novelID].txt
+  ✅ Preview button → test synopsis without starting download
+
+### 🛠️ Changed
+  ✅ Config file renamed → crawler_config_69shuba.json (site-specific)
+  ✅ Single URL input → cleaner layout, Preview button beside it
+  ✅ Tags format: comma-separated → safer for MTL processing
+  ✅ Status bar label fixed & consistent
+
+### 🐛 Fixed
+  ✅ Tags always empty → now extracted directly from bookinfo.tags in page script
+  ✅ Synopsis properly loads from main book page, not chapter page
+  ✅ Removed duplicate/legacy code → cleaner flow
+
+
+v7.9  —  2026-09-14
+
+### ✨ Added
+  ✅ Synopsis preview & save to `synopsis_69shuba_[novelID].txt`
+  ✅ Auto-fetch book page from any chapter URL
+  ✅ Tags extraction from embedded JS → comma-separated (`tag1, tag2, tag3`)
+  ✅ Editable synopsis preview window (copy-paste friendly)
+  ✅ Complete synopsis output format:
 
 v7.9  — 2026-09-09
   ✅ Separator line (30× =) moved to START of each chapter
